@@ -12,7 +12,7 @@ using namespace std;
 string operation;
 int last_instant, process_count;
 vector<pair<char, int>> algorithms;
-vector<tuple<string,int,int>> processes;
+vector<tuple<string,int,int> > processes;
 vector<vector<char>>timeline;
 unordered_map<string,int>processToIndex;
 
