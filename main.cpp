@@ -146,7 +146,7 @@ void roundRobin(int originalQuantum)
 
 void shortestProcessNext()
 {
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; // pair of service time and index
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int>>> pq; // pair of service time and index
     int j = 0;
     for (int i = 0; i < last_instant; i++)
     {
@@ -179,7 +179,7 @@ void shortestProcessNext()
 
 void shortestRemainingTime()
 {
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int>>> pq;
     int j = 0;
     for (int i = 0; i < last_instant; i++)
     {
@@ -256,7 +256,7 @@ void highestResponseRatioNext()
 
 void feedbackQ1()
 {
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //pair of priority level and process index
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int>>> pq; //pair of priority level and process index
     unordered_map<int,int>remainingServiceTime; //map from process index to the remaining service time
     int j=0;
     if(getArrivalTime(processes[0])==0){
@@ -300,7 +300,7 @@ void feedbackQ1()
 
 void feedbackQ2i()
 {
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq; //pair of priority level and process index
+    priority_queue<pair<int, int>, vector<pair<int, int> >, greater<pair<int, int>>> pq; //pair of priority level and process index
     unordered_map<int,int>remainingServiceTime; //map from process index to the remaining service time
     int j=0;
     if(getArrivalTime(processes[0])==0){
