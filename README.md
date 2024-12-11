@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CPU-Scheduling-Algorithms
 An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
 
@@ -137,3 +138,6 @@ entered as 2-4 means Round Robin with q=4. Also, policy 8-1 means Aging with q=1
 - [Yousef Kotp](https://github.com/yousefkotp)
 
 - [Adham Mohammed](https://github.com/adhammohamed1)
+=======
+# cpu-scheduling-algorithms
+>>>>>>> 7ae5b49c82f5942418c73cda99daebe720633edf
