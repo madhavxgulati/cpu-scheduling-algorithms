@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include "bits/stdc++.h"
 #include "parser.h"
 
 #define all(v) v.begin(), v.end()
@@ -215,7 +215,7 @@ void highestResponseRatioNext()
 {
 
     // Vector of tuple <process_name, process_response_ratio, time_in_service> for processes that are in the ready queue
-    vector<tuple<string, double, int>> present_processes;
+    vector<tuple<string, double, int> > present_processes;
     int j=0;
     for (int current_instant = 0; current_instant < last_instant; current_instant++)
     {
